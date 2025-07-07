@@ -2,6 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 import axios from 'axios';
 
+// eslint-disable-next-line react/prop-types
 const ProtectedRoute = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = React.useState(false);
     const [loading, setLoading] = React.useState(true);

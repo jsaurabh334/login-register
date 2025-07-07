@@ -1,10 +1,11 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
 import Login from './components/Login';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
+
 
 const App = () => {
     return (
